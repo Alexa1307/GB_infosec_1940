@@ -14,6 +14,5 @@ get_type(my_list)
 
 # Вариант 2
 my_list = [False, None, 301, 'True', True, 9.5, -13]
-my_list_len = len(my_list)
-for i in range(0, my_list_len):
+for i in range(len(my_list)):
     print(type(my_list[i]))
