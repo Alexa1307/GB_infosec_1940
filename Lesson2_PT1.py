@@ -6,12 +6,11 @@
 а указать явно, в программе.
 '''
 #Вариант 1
-list =[False, None, 301, 'True', True, 9.5, -13]
-def type1(el):
-    for el in range(len(list)):
-        print(type(list[el]))
-    return
-type1(list)
+my_list = [False, None, 301, 'True', True, 9.5, -13]
+def get_type(el):
+    for a in range(len(my_list)):
+        print(type(my_list[a]))
+get_type(my_list)
 
 # Вариант 2
 my_list = [False, None, 301, 'True', True, 9.5, -13]
